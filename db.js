@@ -16,9 +16,9 @@ const config = {
 async function connectToDb() {
   try {
     await sql.connect(config);
-    console.log('✅ Conexión a SQL Azure exitosa.');
+    console.log('Conexión a SQL exitosa.');
   } catch (err) {
-    console.error('❌ Error al conectar a SQL Azure:', err);
+    console.error('Error al conectar a SQL:', err);
   }
 }
 
