@@ -1,0 +1,51 @@
+# Back-end - API para Gestión de Abogados
+
+Este Back-end está desarrollado con **Node.js** y **Express**, utilizando **SQL Server** como base de datos. Expone una API RESTful para gestionar abogados y contactos.
+
+## 🚀 Tecnologías utilizadas
+
+- Node.js
+- Express
+- SQL Server
+- SQL
+- dotenv
+- cors
+- body-parser
+
+---
+
+## ⚙️ Requisitos previos
+
+- Node.js instalado
+- SQL Server en ejecución con una base de datos configurada
+- Archivo `.env` con la configuración de conexión
+
+---
+
+## 📦 Instalación
+
+1. Entrar a la carpeta del backend:
+
+2. Instalar dependencias:
+
+npm install
+
+3. Crear un .env con los siguientes valores:
+
+PORT=4000
+DB_USER=seba
+DB_PASSWORD=_m4v3r1cx_
+DB_SERVER=servidor-sql-clone-jira.database.windows.net
+DB_DATABASE=TaskBoardDb
+
+(es una base de datos y servicio de azure dummy con el fin de aprender)
+
+4. Iniciar el servidor:
+
+node app.js
+
+Este proyecto fue una gran oportunidad para aprender a crear y manipular APIs en node, ya que usualmente lo hago con .NET, 
+además aprendí a usar la base de datos que tengo linkeada en Azure. Para una mejor manipulación de las APIs, correr este proyecto usando el 
+repositorio de Front-end.
+
+
