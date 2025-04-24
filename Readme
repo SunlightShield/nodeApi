@@ -37,6 +37,7 @@ DB_USER=seba
 DB_PASSWORD=_m4v3r1cx_
 DB_SERVER=servidor-sql-clone-jira.database.windows.net
 DB_DATABASE=TaskBoardDb
+DB_ENCRYPT=true
 
 (es una base de datos y servicio de azure dummy con el fin de aprender)
 
