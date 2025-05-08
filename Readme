@@ -32,11 +32,11 @@ npm install
 
 3. Crear un .env con los siguientes valores:
 
-PORT=4000
-DB_USER=seba
-DB_PASSWORD=_m4v3r1cx_
-DB_SERVER=servidor-sql-clone-jira.database.windows.net
-DB_DATABASE=TaskBoardDb
+PORT=tu_puerto
+DB_USER=tu_usuario
+DB_PASSWORD=tu_password
+DB_SERVER=direccion_de_tu_server
+DB_DATABASE=direccion_base_de_datos
 DB_ENCRYPT=true
 
 (es una base de datos y servicio de azure dummy con el fin de aprender)
